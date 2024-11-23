@@ -11,5 +11,8 @@ export default defineConfig({
   },
   build: {
     outDir: "dist", // Correct placement for the output directory
+    cssCodeSplit: true,
+    sourcemap: false, // Disable source maps for production
+    chunkSizeWarningLimit: 500,
   },
 })
