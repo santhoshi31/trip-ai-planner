@@ -8,7 +8,7 @@ import {  getFirestore } from "firebase/firestore";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: import.meta.evn.VITE_GOOGLE_FIREBASE_API_KEY,
+  apiKey: import.meta.env.VITE_GOOGLE_FIREBASE_API_KEY,
   authDomain: "wander-weaver.firebaseapp.com",
   projectId: "wander-weaver",
   storageBucket: "wander-weaver.firebasestorage.app",
