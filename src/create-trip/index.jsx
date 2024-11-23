@@ -6,7 +6,7 @@ import { Button } from '@/components/ui/button';
 import { toast } from 'sonner';
 import { chatSession } from '@/service/AIModel';
 import { doc, setDoc } from 'firebase/firestore';
-import { db } from '@/service/FirebaseConfig';
+import { db } from '@/service/firebaseConfig';
 import { AiOutlineLoading3Quarters } from "react-icons/ai";
 import { useNavigate } from 'react-router-dom';
 import Footer from '@/view-trip/components/Footer';
